@@ -1,5 +1,7 @@
 /* For Tablet Devices */
 @media screen and (max-width: 768px) {
+
+    /* responsive header section start here*/
     header{
         padding: 30px 40px;
     }
@@ -23,12 +25,45 @@
     .baner-img > img{
         text-align: right;
     }
+
+    /* responsive header section end here*/
+    /* responsive blog section start here*/
+    main{
+        padding: 30px 40px;
+    }
+    .blog-details{
+        grid-template-columns: repeat(1 ,1fr);
+        gap: 35px;
+    }
+    .buttons > .button{
+        flex-direction: row;
+        gap: 25px;
+        background: none;
+        padding: 0;
+    }
+    .buttons > .button > .link-btn{
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+    #blog{
+       border: none;
+       
+    }
+    .blog-details{
+        gap: 25px;
+    }
+    .card-details{
+        grid-template-columns: repeat(1 ,1fr 1fr);
+    }
+
+    /* responsive blog section end here*/
+
 }
 /* End */
 
 
 /* For Mobile Devices */
 @media screen and (max-width:576px) {
+    /* responsive header section srart here*/
     .baner{
         grid-template-columns: repeat(1,1fr);
     }
@@ -44,6 +79,23 @@
     .baner-text > .btn{
         margin-bottom: 20px;
     }
+    /* responsive header section end here*/
+    /* responsive blog section start here*/
+
+    main{
+        padding: 0px 40px;
+    }
+    .buttons > .button{
+        flex-direction: column;
+        gap: 0;
+    }
+    .card-details{
+        grid-template-columns: repeat(1 ,1fr);
+        
+    }
+
+     /* responsive blog section end here*/
+
 }
 
 /* End */
