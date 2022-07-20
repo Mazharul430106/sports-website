@@ -141,6 +141,25 @@ main{
     position: relative;
     top: -1px;
 }
+
+.button{
+    display: none;
+    text-align: center;
+}
+.view_btn{
+    border: none;
+    width: 187px;
+    height: 54px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    background:chocolate ;
+    color: #ffff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
 /* main style end here  */
 
 /* footer style start here */

@@ -55,6 +55,12 @@
     .card-details{
         grid-template-columns: repeat(1 ,1fr 1fr);
     }
+
+    .button{
+        display: block;
+        padding: 25px 0;
+    }
+
     /* blog section responsive end here*/
 
 
