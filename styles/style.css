@@ -41,6 +41,17 @@ header{
     width: 100%;
     height: 100%;
 }
+@keyframes bgChange {
+    0%{
+        background-color: chocolate;
+    }
+    50%{
+        background-color:#FF0000;
+    }
+    100%{
+        background-color: chocolate;
+    }
+}
 .baner-text > .btn{
     border: none;
     width: 187px;
@@ -54,7 +65,14 @@ header{
     margin-top: 10px;
     margin-bottom: 100px;
     box-shadow: 1px 2px 15px rgba(255,255,255,0.5);
+    
 }
+
+.baner-text > .btn:hover{
+    animation: bgChange 1s ease-in-out 0.5s 1 both;
+    animation-play-state: running;
+}
+
 .btn > i{
     position: relative;
     top: 2.5px;
@@ -93,7 +111,7 @@ main{
     background-color: #fff;
     color: #000;
 }
-#blog{
+#bg_btn{
     background-color: chocolate;
     color: #fff;
 }
@@ -131,7 +149,7 @@ main{
     gap: 25px;
     padding: 15px;
 }
-.game-duration, .game-coments{
+.game-duration, .game-coment{ 
     display: flex;
     align-items: center;
     gap: 10px;
@@ -159,13 +177,40 @@ main{
     margin-top: 10px;
 }
 
+/* match html file style start here */
+
+.match_info{
+    padding: 35px 25px;
+    text-align: center;
+}
+.match_info > h3,p{
+    text-transform: capitalize;
+    
+}
+.match_info > p{
+   font-size: 14px;
+   padding: 10px 0;
+   color: #3a3a3a;
+}
+.compition-countrys{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.compition-countrys > img{
+    width: 40%;
+
+}
+
+/* match html file style end here */
 
 /* main style end here  */
 
 /* footer style start here */
 footer{
     text-align: center;
-    padding: 100px 0;
+    padding: 70px 0;
     background-color: #161616;
     color: #fff;
 }
@@ -180,4 +225,37 @@ footer h2{
     padding: 0px 25px;
     text-transform: capitalize;
 }
+
+.social-links{
+    margin-top: 50px;
+}
+.social-links > a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin: 0 15px;
+    border-radius: 50%;
+    color: #fff;
+}
+.social-links .twitter:hover {
+    background-color: #0E8FF3;
+    border: none;
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+}
+.social-links .youtube:hover {
+    background-color: #FF0000;
+    border: none;
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+}
+.social-links .google:hover {
+    background-color: #FF631A;
+    border: none;
+    transition: all 0.4s ease-in-out;
+    color: #fff;
+}
+
 /* footer style end here  */
