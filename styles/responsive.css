@@ -1,0 +1,49 @@
+/* For Tablet Devices */
+@media screen and (max-width: 768px) {
+    header{
+        padding: 30px 40px;
+    }
+    .baner{
+        padding: 0 40px;
+    }
+    .baner-text > h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .baner-text > p{
+        font-size: 12px;
+    }
+    .baner-text > .btn{ 
+        height: 45px;       
+        margin-bottom: 60px;
+    }
+    .btn > i{
+        top: 0.6;
+    }
+    .baner-img > img{
+        text-align: right;
+    }
+}
+/* End */
+
+
+/* For Mobile Devices */
+@media screen and (max-width:576px) {
+    .baner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .baner-text{
+        text-align: center;
+    }
+    .baner-text > h1{
+        line-height: 50px;
+    }
+    .baner-img > img{
+        margin: 0 auto;
+    }
+    .baner-text > .btn{
+        margin-bottom: 20px;
+    }
+}
+
+/* End */
