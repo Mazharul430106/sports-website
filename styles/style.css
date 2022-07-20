@@ -13,7 +13,6 @@
 header{
     padding: 50px 100px;
 }
-
 .baner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -61,11 +60,9 @@ header{
     top: 2.5px;
     left: 5px;
 }
-
 /* header style end here  */
 
 /* main style start here */
-
 main{
     padding: 50px 100px;
 }
@@ -74,7 +71,6 @@ main{
     grid-template-columns: repeat(1 ,1fr 3fr);
     grid-column-gap: 20px;
 }
-
 .buttons > .button{
     display: flex;
     flex-direction: column;
@@ -82,7 +78,6 @@ main{
     padding: 35px;
     border-radius: 10px;
 }
-
 
 .buttons > .button > .link-btn{
     width: 100%;
@@ -98,12 +93,10 @@ main{
     background-color: #fff;
     color: #000;
 }
-
 #blog{
     background-color: chocolate;
     color: #fff;
 }
-
 .card-details{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
@@ -116,14 +109,12 @@ main{
 .card-info > img{
     width: 100%;
 }
-
 .card-text{
     padding: 0 15px;
 }
 .card-text > h3{
     font-size: 16px;
 }
-
 .card-btn{
     border: 1px solid black;
     text-transform: capitalize;
@@ -134,7 +125,6 @@ main{
     border-radius: 5px;
     margin: 10px 0;
 }
-
 .game_duration_coments{
     display: flex;
     align-items: center;
@@ -151,5 +141,24 @@ main{
     position: relative;
     top: -1px;
 }
-
 /* main style end here  */
+
+/* footer style start here */
+footer{
+    text-align: center;
+    padding: 100px 0;
+    background-color: #161616;
+    color: #fff;
+}
+
+footer h2{
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+
+.link-list > a{
+    color: #B9B9B9;
+    padding: 0px 25px;
+    text-transform: capitalize;
+}
+/* footer style end here  */

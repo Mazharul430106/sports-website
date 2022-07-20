@@ -1,7 +1,8 @@
+
 /* For Tablet Devices */
 @media screen and (max-width: 768px) {
 
-    /* responsive header section start here*/
+    /* header section responsive start here*/
     header{
         padding: 30px 40px;
     }
@@ -25,9 +26,9 @@
     .baner-img > img{
         text-align: right;
     }
+    /* header section responsive end here*/
 
-    /* responsive header section end here*/
-    /* responsive blog section start here*/
+    /* blog section responsive start here*/
     main{
         padding: 30px 40px;
     }
@@ -54,16 +55,22 @@
     .card-details{
         grid-template-columns: repeat(1 ,1fr 1fr);
     }
+    /* blog section responsive end here*/
 
-    /* responsive blog section end here*/
 
+    /* footer section responsive start here */
+    .link-list > a{
+        padding: 0 35px;
+        line-height: 45px;
+    }
+    /* footer section responsive end here */
 }
 /* End */
 
 
 /* For Mobile Devices */
 @media screen and (max-width:576px) {
-    /* responsive header section srart here*/
+    /* header section responsive srart here*/
     .baner{
         grid-template-columns: repeat(1,1fr);
     }
@@ -79,9 +86,9 @@
     .baner-text > .btn{
         margin-bottom: 20px;
     }
-    /* responsive header section end here*/
-    /* responsive blog section start here*/
+    /* header section responsive end here*/
 
+    /* blog section responsive start here*/
     main{
         padding: 0px 40px;
     }
@@ -93,9 +100,17 @@
         grid-template-columns: repeat(1 ,1fr);
         
     }
+    /* blog section responsive end here*/
 
-     /* responsive blog section end here*/
 
+    /* footer section responsive start here*/
+    footer{
+        margin-top: 40px;
+    }
+    .link-list > a{
+        display: block;
+    }
+    /* footer section responsive end here*/
 }
 
 /* End */
